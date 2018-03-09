@@ -2,7 +2,7 @@
 	<div id="cv">
 		<div class="mainDetails">
 			<div id="headshot" >
-				<img src="../assets/jasFad.png" alt="" />
+				<img src="../assets/poMladCB.png" alt="Avatar" align="middle" />
 			</div>
 			
 			<div id="name">

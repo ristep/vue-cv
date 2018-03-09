@@ -3,7 +3,7 @@
 	<div id="cv" class="instaFade">
 		<div class="mainDetails">
 			<div id="headshot" class="quickFade">
-				<img src="../assets/jasFad.png" alt="" />
+				<img src="../assets/poMladCB.png" alt="" />
 			</div>
 			
 			<div id="name">

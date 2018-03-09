@@ -1,6 +1,6 @@
 <template>
 <div id="top">
-<div id="cv" class="instaFade">
+<div id="cv" class="instaFade w3-small">
 	<div class="mainDetails">
 		
 		<div id="headshot" class="quickFade">

@@ -13,7 +13,7 @@
       <div class="w3-white w3-text-grey w3-card-4">
 
         <div class="w3-display-container">
-          <img src="../assets/jasFad.png" style="width:100%" alt="Avatar">
+          <img src="../assets/poMladCB.jpg" alt="Avatar" align="middle">
           <div class="w3-display-bottomleft w3-container w3-xxlarge">
             <h2>{{ cv.name }}</h2>
           </div>
@@ -174,10 +174,15 @@ $fnt-h2:   'Playfair Display', serif;
 $h1color: rgba(0, 149, 134, 0.548);
 $h2color: rgb(0, 149, 135);
 
+img {
+	width: 98%;
+}
+
 html,div,h1,h2,h3,h4,h5,h6 {
    font-family: $fnt-h1;
 	 margin: 0px;
 }
+
 h1 {
  font-size: 2em;
  color: $h2color;
