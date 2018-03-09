@@ -21,9 +21,8 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-		
+
 		<div id="mainArea">
-			
 			<section>
 				<article> <!-- Prof. Summary -->
 					<div class="sectionTitle">
@@ -166,6 +165,8 @@ export default {
 // font-family: 'Playfair Display', serif;
 // font-family: 'Forum', cursive;
 
+@import '../parti/reset';
+
 $fnt-par:  'Forum', cursive;
 $fnt-h1:   'Karma', serif;
 $fnt-h2:   'Playfair Display', serif;
@@ -177,19 +178,6 @@ $clr-h2:  rgb(163, 88, 45);
 $clr-p:   rgb(15, 15, 15);
 
 $met-deb: 3px;
-
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-	border:0;
-	font:inherit;
-	font-size:100%;
-	margin:0;
-	padding:0;
-	vertical-align:baseline;
-}
-
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-  display: block;
-}
 
 @media print
 {    
@@ -214,8 +202,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
   background: $clr-pozad;
   margin: 30px auto;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 1s cubic-bezier(.25,.8,.25,1);
-
+	transition: all 1s cubic-bezier(.25,.8,.25,1);
+	
 	.mainDetails {
   	border-radius: 4px;
   	padding: 20px 30px;
@@ -223,6 +211,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
   	background: $clr-pozad;
 		float: left;
 		width: 100%;
+		margin-bottom: 20px;
 		#headshot {
 			width: 12.5%;
 			float: left;
@@ -263,7 +252,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 	#mainArea {
 		background: $clr-pozad;
-		padding: 0 30px;
+		padding: 0px;
 		section {
  			// border-bottom: 1px solid #dedede;
   		padding-left: 20px;

@@ -5,12 +5,12 @@
 			<div id="headshot" class="quickFade">
 				<!-- <img src="../assets/jasFad.png" alt="" /> -->
 			</div>
-			
+
 			<div id="name">
 				<h1 class="quickFade delayTwo">{{ cv.name }}</h1>
 				<h2 class="quickFade delayThree">{{cv.jobtitle}}</h2>
 			</div>
-			
+
 			<div id="contactDetails" class="quickFade delayOne">
 				<ul>
 					<li>e: <a v-bind:href="'mailto:'+this.cv.email">{{cv.email}}</a></li>
@@ -22,7 +22,7 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-		
+
 		<div id="mainArea" class="quickFade delayFive">
 
 			<section>
@@ -31,7 +31,7 @@
 						<!-- <h1>{{ cv.profsum.title }}</h1> -->
 						<h1>Profile</h1>
 					</div>
-					<div class="sectionContent">	
+					<div class="sectionContent">
 						<article v-for="(item, key) in cv.profsum.items" v-bind:key="key" v-if="item[0]>5">
 							<p>{{ item[1] }}</p>
 						</article>
@@ -109,7 +109,7 @@
 				</div>
 				<div class="clear"></div>
 			</section>
-			
+
 		</div>
 	</div>
 </div>
@@ -153,7 +153,7 @@ export default {
 					"items": []
 				}
 			}
-		}	
+		}
 	},
   async mounted() {
     this.loading = true;
@@ -174,6 +174,8 @@ export default {
 // font-family: 'Playfair Display', serif;
 // font-family: 'Forum', cursive;
 
+@import '../parti/reset';
+
 $fnt-par:  'Forum', cursive;
 $fnt-h1:   'Karma', serif;
 $fnt-h2:   'Playfair Display', serif;
@@ -184,17 +186,8 @@ $clr-03: rgb(73, 124, 123);
 
 $met-deb: 3px;
 
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-	border:0;
-	font:inherit;
-	font-size:100%;
-	margin:0;
-	padding:0;
-	vertical-align:baseline;
-}
-
 // @media print
-// {   
+// {
 // 	html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
 // 		border:0;
 // 		font:inherit;
@@ -207,21 +200,17 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 // }
 
 @media print
-{    
+{
   .no-print, .no-print * {
   	display: none !important;
   }
-	
+
 	#cv {
-		box-shadow: none !important; 
+		box-shadow: none !important;
 	}
 }
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-  display: block;
-}
-
-.mspace { 
+.mspace {
 	height: $met-deb;  /* Can be anything */
 	position: relative;
 	background: rgb(255, 255, 255);
@@ -262,7 +251,7 @@ p {
   max-width: 800px;
   background: #f3f3f3;
   margin: 30px auto;
-	box-shadow: 2px 3px 9px 2px rgb(150, 150, 150); 
+	box-shadow: 2px 3px 9px 2px rgb(150, 150, 150);
 }
 
 .mainDetails {

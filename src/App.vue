@@ -22,7 +22,7 @@ export default {
 			gled: true,
 			shir: 2*600
 		}
-	},	
+	},
 	methods: {
 		onClick() {
 			this.gled = ! this.gled;
@@ -30,7 +30,10 @@ export default {
 		onResize() {
       this.shir = window.innerWidth;
 			this.gled = (this.shir>this.mxshir);
-		}
+		},
+    Download() {
+      //
+    }
 	},
 	mounted() {
 		this.onResize();
@@ -40,14 +43,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-border:0;
-font:inherit;
-font-size:100%;
-margin:0;
-padding:0;
-vertical-align:baseline;
-}
+@import './parti/reset';
 
 $mx-shir: 600px;
 $fnt-par: 'Forum', cursive;
@@ -60,7 +56,7 @@ $clr-03: #009587; // rgb(73, 124, 123);
 $clr-txt:#daf8f4;
 $clr-txt-hi:#fffffb;
 
-@media print {    
+@media print {
   .no-print, .no-print * {
     display: none !important;
   }

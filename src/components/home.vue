@@ -46,7 +46,11 @@
           <br>
         </div>
       </div>
-
+      <div class="w3-white w3-text-grey w3-card-4 w3-padding-16 w3-margin-top">
+        <p class="w3-xlarge"><b><i class="fa fa-download fa-fw w3-text-teal w3-margin"></i>Download</b></p>
+        <a class="w3-button w3-margin" href="http://capirp.us.to/download/ArSoft-Resume.pdf">ArSoft-Resume.pdf</a>
+        <a class="w3-button w3-margin" href="http://capirp.us.to/download/ArSoft-CV.pdf">ArSoft-CV.pdf</a>
+      </div>
     <!-- End Left Column -->
     </div>
 
@@ -76,7 +80,6 @@
 
     <!-- End Right Column -->
     </div>
-
   <!-- End Grid -->
   </div>
 
@@ -191,7 +194,7 @@ h4 {
  color: $h1color;
 }
 p {
-	font-family: $fnt-par;	
+	font-family: $fnt-par;
 	margin: 0px;
 }
 .clear {

@@ -173,6 +173,8 @@ export default {
 // font-family: 'Playfair Display', serif;
 // font-family: 'Forum', cursive;
 
+@import '../parti/reset';
+
 $fnt-par:  'Forum', cursive;
 $fnt-h1:   'Karma', serif;
 $fnt-h2:   'Playfair Display', serif;
@@ -183,14 +185,6 @@ $clr-03: rgb(163, 88, 45);
 
 $met-deb: 3px;
 
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-	border:0;
-	font:inherit;
-	font-size:100%;
-	margin:0;
-	padding:0;
-	vertical-align:baseline;
-}
 
 // @media print
 // {   
@@ -214,10 +208,6 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	#cv {
 		box-shadow: none !important; 
 	}
-}
-
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-  display: block;
 }
 
 .mspace { 
