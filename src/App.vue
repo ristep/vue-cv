@@ -62,12 +62,18 @@ $clr-txt-hi:#fffffb;
   }
 }
 
+nav:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.24);
+}
+
 nav {
   background-color: $clr-03;
   overflow: hidden;
   font-family: 'Bree Serif', serif;
   font-size: 18px;
   // border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all .1s cubic-bezier(.25,.8,.25,1);
 
   a {
     float: left;

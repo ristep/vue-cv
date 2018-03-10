@@ -1,8 +1,8 @@
 <template>
-<div class="w3-light-grey">
+<div>
 <!-- <h2>{{ msg }}</h2> -->
 
-<div class="w3-content" style="max-width:1400px;">
+<div style="max-width:1400px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -88,16 +88,14 @@
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
 	<hr>
-  <p>Find me on social media.</p>
-  <br>
-  <a href="https://plus.google.com/+RistePanovski" target="_blank"><i class="fa fa-google-plus w3-hover-opacity w3-xlarge"></i></a>
+  <a href="https://github.com/ristep" target="_blank"><i class="fa fa-github w3-hover-opacity w3-xlarge"></i></a>
+  <a href="https://www.instagram.com/ristepan/?hl=en" target="_blank"><i class="fa fa-instagram w3-hover-opacity w3-xlarge"></i></a>
   <a href="https://www.linkedin.com/in/riste-panovski-94041552" target="_blank"><i class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i></a>
   <a href="https://www.facebook.com/ristepan" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity w3-xlarge"></i></a>
   <a href="https://twitter.com/ristepan" target="_blank"><i class="fa fa-twitter w3-hover-opacity w3-xlarge"></i></a>
-  <a href="https://www.instagram.com/ristepan/?hl=en" target="_blank"><i class="fa fa-instagram w3-hover-opacity w3-xlarge"></i></a>
   <a href="https://www.pinterest.com/ristepan" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity w3-xlarge"></i></a>
+  <a href="https://plus.google.com/+RistePanovski" target="_blank"><i class="fa fa-google-plus w3-hover-opacity w3-xlarge"></i></a>
   <hr>
-  <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
 </footer>
 
 </div>
@@ -159,8 +157,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import 'w3-css//w3.css';
-@import url("https://www.w3schools.com/w3css/4/w3.css");
+// @import 'w3-css//w3.css';
+// @import url("https://www.w3schools.com/w3css/4/w3.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Forum|Karma:300,400,700|Playfair+Display:400,400i,900&amp;subset=cyrillic");
 // font-family: 'Karma', serif;
