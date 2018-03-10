@@ -8,29 +8,43 @@ For that reason, I decided to make my CV framed in Vue.
 
 An online live demo is [here](http://arso-cv.us.to).
 
-### Installation
+## Installation
 
 ```sh
-$ mkdir vue-cv
-$ cd vue-cv
+
+mkdir vue-cv
+cd vue-cv
+
 ```
+
 Clone this [git](https://github.com/ristep/vue-cv.git) or extract [.zip](https://github.com/ristep/vue-cv/archive/master.zip) in created `vue-cv`, then:
 
 ```sh
-$ yarn
-$ yarn serve
+
+yarn
+yarn serve
+
 ```
+
 If don't have yarn install it with this:
-```sh
-$ sudo apt-get update
-$ sudo apt-get install yarn
-```
+
+``sh
+
+sudo apt-get update
+sudo apt-get install yarn
+
+``
+
 For other than Ubuntu/Debian see [this article](https://yarnpkg.com/lang/en/docs/install/)
 
 For production environments...
+
 ```sh
-$ yarn run buld
+
+yarn run buld
+
 ```
+
 ### Server side
 
 Put [this](https://github.com/ristep/vue-cv/tree/master/src/server-side) files on some web server with .php
@@ -49,6 +63,8 @@ Want to contribute? Great! :)
 - Add Night Mode :)
 
 License
+
 ----
+
 [MIT](https://opensource.org/licenses/MIT)
 **Free Software!**
