@@ -30,14 +30,14 @@
 
 					<p class="w3-xlarge"><b><i class="fa fa-asterisk fa-fw w3-text-teal w3-margin-bottom"></i>{{cv.skills.title}}</b></p>
 					<div v-for="item in cv.skills.items">
-							<p>{{ item[1] }}</p>
+ 							<p>{{ item[1] }}</p>
 							<div class="w3-light-grey w3-round-xlarge w3-small w3-margin-bottom">
 								<div class="w3-container w3-center w3-round-xlarge w3-teal" v-bind:style="'width:'+item[0]+'%'">{{item[0]}}%</div>
 							</div>
 					</div>
 					<hr>
           <p class="w3-xlarge"><b><i class="fa fa-globe fa-fw w3-text-teal w3-margin-bottom"></i>{{cv.languages.title}}</b></p>
-					<div v-for="item in cv.languages.items">
+					<div v-for="(item, key) in cv.languages.items" v-bind:key="key">
 							<p>{{ item[1] }}</p>
 							<div class="w3-light-grey w3-round-xlarge w3-small w3-margin-bottom">
 								<div class="w3-container w3-center w3-round-xlarge w3-teal" v-bind:style="'width:'+item[0]+'%'">{{item[0]}}%</div>
