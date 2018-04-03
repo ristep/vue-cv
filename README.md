@@ -53,6 +53,7 @@ Want to contribute? Great! :)
 - Some editor for `cv.json`.
 - Write some Tests.
 - Add Night Mode :)
+- React version
 
 ### License
 
