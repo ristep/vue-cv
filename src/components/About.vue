@@ -4,7 +4,7 @@
 <h3>README.md from GitHub repository <a href="https://github.com/ristep/vue-cv">ristep/vue-cv</a></h3>
 </div>
 <div class="w3-padding w3-white w3-card w3-margin-top w3-small" >
-	<span v-html=" readme_md"></span>
+	<span v-html="readme_md"></span>
 <!-- <vue-markdown>{{ readme_md }}</vue-markdown> -->
 </div>
 </div>
